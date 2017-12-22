@@ -1,6 +1,9 @@
+# The book I am reading
+Machine Learning, by Tom Till
 
-# 1. Mathmatics
-(recommended by Zhihua Zhang, School of Mathematical Sciences, Peking University)
+# Mathmatics
+([recommended by Zhihua Zhang, School of Mathematical Sciences, Peking University](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwj247nTp53YAhVFwLwKHVa0BIsQFggqMAA&url=%68%74%74%70%3a%2f%2f%77%77%77%2e%63%63%66%2e%6f%72%67%2e%63%6e%2f%63%63%66%2f%41%74%74%61%63%68%6d%65%6e%74%2f%74%65%78%74%44%6f%77%6e%6c%6f%61%64%3f%41%72%74%69%63%6c%65%49%44%3d%35%35%34%31%37%37%26%53%69%74%65%49%44%3d%31%32%32&usg=AOvVaw0t1ZIc8LJbTFIczVNVWsJ9))
+
 
 ### 1) Probability and Statistics
 *Probability and Statistics 4th edition*, by Morris H. DeGroot and Mark J. Schervish
@@ -26,3 +29,10 @@ Probability and Computing: Randomized Algorithms and Probabilistic Analysis, by 
 Programming Massively Parallel Processors: A Hands-on Approach, Second Edition, by David B. Kirk and Wen-mei W. Hwu
 
 Nvidia CUDA lesson, by Udacity
+
+
+## Machine Learning & Deep Learning[https://github.com/ty4z2008/Qix/blob/master/dl.md](https://github.com/ty4z2008/Qix/blob/master/dl.md)
+[https://github.com/ty4z2008/Qix/blob/master/dl2.md](https://github.com/ty4z2008/Qix/blob/master/dl.md)
+## Natural Language Processing
+**Speech and Language Processing**, Dan Jurafsky and James H. Martin ([https://web.stanford.edu/~jurafsky/slp3/](https://web.stanford.edu/~jurafsky/slp3/))
+
