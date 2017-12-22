@@ -10,12 +10,12 @@
 
 reference: [https://www.zhihu.com/question/20691338](https://www.zhihu.com/question/20691338)
 
-## Machine Learning***Machine Learning***, Tom.Mitchell***Machine Learning in Action***. Python Source Code: [https://github.com/pbharrin/machinelearninginaction](https://github.com/pbharrin/machinelearninginaction)
+# Machine Learning***Machine Learning***, Tom.Mitchell***Machine Learning in Action***. Python Source Code: [https://github.com/pbharrin/machinelearninginaction](https://github.com/pbharrin/machinelearninginaction)
 ***Machine Learning Coursera Lesson***, by Andrew Ng:  [https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)***Pattern Recognition And Machine Learning***, by Bishop
-***The Elements of Statistical Learning***: Data Mining, Inference, and Prediction## Deep Learning
+***The Elements of Statistical Learning***: Data Mining, Inference, and Prediction# Deep Learning
 **Deep Learning**, An MIT Press book, Ian Goodfellow and Yoshua Bengio and Aaron Courville: [http://www.deeplearningbook.org/](http://www.deeplearningbook.org/)
-## Data Mining
-***Data Mining: Concepts and Techniques***, by Jiawei Han## Natural Language Processing
+# Data Mining
+***Data Mining: Concepts and Techniques***, by Jiawei Han# Natural Language Processing
 **Speech and Language Processing**, Dan Jurafsky and James H. Martin ([https://web.stanford.edu/~jurafsky/slp3/](https://web.stanford.edu/~jurafsky/slp3/))
 
 # Mathmatics
@@ -47,7 +47,7 @@ Programming Massively Parallel Processors: A Hands-on Approach, Second Edition, 
 Nvidia CUDA lesson, by Udacity
 
 
-## Others[https://github.com/ty4z2008/Qix/blob/master/dl.md](https://github.com/ty4z2008/Qix/blob/master/dl.md)
+# Others[https://github.com/ty4z2008/Qix/blob/master/dl.md](https://github.com/ty4z2008/Qix/blob/master/dl.md)
 [https://github.com/ty4z2008/Qix/blob/master/dl2.md](https://github.com/ty4z2008/Qix/blob/master/dl.md)
 
 
