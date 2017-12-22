@@ -1,0 +1,292 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'madoko-local' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData madoko-local
+8 silly fetchNamedPackageData madoko-local
+9 silly mapToRegistry name madoko-local
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://npm.oa.com/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'madoko-local',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'madoko-local',
+12 silly mapToRegistry   name: 'madoko-local',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri http://npm.oa.com/madoko-local
+14 verbose request uri http://npm.oa.com/madoko-local
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 4:40:30 PM
+17 verbose request id 14bc7e0b03388abf
+18 http request GET http://npm.oa.com/madoko-local
+19 http 403 http://npm.oa.com/madoko-local
+20 verbose bad json <!DOCTYPE html>
+20 verbose bad json <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+20 verbose bad json
+20 verbose bad json     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+20 verbose bad json     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+20 verbose bad json     <link rel="icon" href="http://www.qcloud.com/favicon.ico" type="image/x-icon">
+20 verbose bad json     <style type="text/css">
+20 verbose bad json         body,div,p,h1{margin:0;padding:0;line-height:1;}
+20 verbose bad json         a{color:#0070cc !important;text-decoration: none;}
+20 verbose bad json         .content{width: 850px;height: 410px;border:solid 1px #e4e5e5;background-color:#fdfdfd;position:absolute;top:50%;left:50%;margin-left:-425px;margin-top:-205px;font-family:'Microsoft yahei';}
+20 verbose bad json         .bd{padding-top: 60px;margin: 0 198px;padding-bottom:10px;}
+20 verbose bad json         .bd .title{font-size: 22px;color:#171d25;font-weight:normal;margin-bottom:30px;}
+20 verbose bad json         .bd .title>strong{font-weight:normal;color:#ed711f;}
+20 verbose bad json         .bd p{font-size:14px;color:#171d25;margin-bottom:20px;}
+20 verbose bad json         .bd .sub{margin-top:30px;}
+20 verbose bad json         .bd .sub p{color:#808080;}
+20 verbose bad json         .ft{width:730px;margin:0 auto;border-top:solid 1px #edeef2;padding-top:30px;}
+20 verbose bad json         .qcloud-logo{width:96px;height:26px;margin:0 auto;background-image:url(http://imgcache.qq.com/wss/beian/static/img/logo.png);}
+20 verbose bad json     </style>
+20 verbose bad json <style type="text/css"></style></head>
+20 verbose bad json <body>
+20 verbose bad json     <div class="content">
+20 verbose bad json         <div class="bd">
+20 verbose bad json             <h1 class="title">温馨提示：<strong>该网站暂时无法访问</strong></h1>
+20 verbose bad json             <div class="detail">
+20 verbose bad json                 <p>原因一：根据 <a href="http://www.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=11">工信部相关法律法规</a>，该网站尚未备案；</p>
+20 verbose bad json                 <p>原因二：根据 <a href="http://www.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=9">工信部相关法律法规</a>，该网站未在接入商腾讯云上备案；</p>
+20 verbose bad json                 <p>原因三：该网站可能存在不适宜传播的信息。</p>
+20 verbose bad json                 <div class="sub">
+20 verbose bad json                     <p>本页面为默认提示页面，如存在以上问题，请联系网站负责人及时处理。</p>
+20 verbose bad json                     <p>如需备案请登录 <a href="http://console.qcloud.com/beian">腾讯云备案控制台</a>，查看 <a href="http://www.qcloud.com/doc/product/243/%E5%A4%87%E6%A1%88%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98">备案常见问题</a>，谢谢合作！</p>
+20 verbose bad json                 </div>
+20 verbose bad json             </div>
+20 verbose bad json         </div>
+20 verbose bad json         <div class="ft">
+20 verbose bad json             <div class="qcloud-logo"></div>
+20 verbose bad json         </div>
+20 verbose bad json     </div>
+20 verbose bad json </body></html>
+20 verbose bad json <!--[if !IE]>|xGv00|8f85bc5ee2a463e0e5c16c474a6dd271<![endif]-->
+21 error registry error parsing json
+22 verbose headers { 'content-type': 'text/html',
+22 verbose headers   'content-length': '2654',
+22 verbose headers   'x-cache': 'MISS from SK-SQUIDDEV-114',
+22 verbose headers   'x-cache-lookup': 'MISS from SK-SQUIDDEV-114:8080',
+22 verbose headers   connection: 'close' }
+23 silly get cb [ 403,
+23 silly get   { 'content-type': 'text/html',
+23 silly get     'content-length': '2654',
+23 silly get     'x-cache': 'MISS from SK-SQUIDDEV-114',
+23 silly get     'x-cache-lookup': 'MISS from SK-SQUIDDEV-114:8080',
+23 silly get     connection: 'close' } ]
+24 silly fetchPackageMetaData SyntaxError: Unexpected token < in JSON at position 0
+24 silly fetchPackageMetaData <!DOCTYPE html>
+24 silly fetchPackageMetaData <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+24 silly fetchPackageMetaData     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+24 silly fetchPackageMetaData     <link rel="icon" href="http://www.qcloud.com/favicon.ico" type="image/x-icon">
+24 silly fetchPackageMetaData     <style type="text/css">
+24 silly fetchPackageMetaData         body,div,p,h1{margin:0;padding:0;line-height:1;}
+24 silly fetchPackageMetaData         a{color:#0070cc !important;text-decoration: none;}
+24 silly fetchPackageMetaData         .content{width: 850px;height: 410px;border:solid 1px #e4e5e5;background-color:#fdfdfd;position:absolute;top:50%;left:50%;margin-left:-425px;margin-top:-205px;font-family:'Microsoft yahei';}
+24 silly fetchPackageMetaData         .bd{padding-top: 60px;margin: 0 198px;padding-bottom:10px;}
+24 silly fetchPackageMetaData         .bd .title{font-size: 22px;color:#171d25;font-weight:normal;margin-bottom:30px;}
+24 silly fetchPackageMetaData         .bd .title>strong{font-weight:normal;color:#ed711f;}
+24 silly fetchPackageMetaData         .bd p{font-size:14px;color:#171d25;margin-bottom:20px;}
+24 silly fetchPackageMetaData         .bd .sub{margin-top:30px;}
+24 silly fetchPackageMetaData         .bd .sub p{color:#808080;}
+24 silly fetchPackageMetaData         .ft{width:730px;margin:0 auto;border-top:solid 1px #edeef2;padding-top:30px;}
+24 silly fetchPackageMetaData         .qcloud-logo{width:96px;height:26px;margin:0 auto;background-image:url(http://imgcache.qq.com/wss/beian/static/img/logo.png);}
+24 silly fetchPackageMetaData     </style>
+24 silly fetchPackageMetaData <style type="text/css"></style></head>
+24 silly fetchPackageMetaData <body>
+24 silly fetchPackageMetaData     <div class="content">
+24 silly fetchPackageMetaData         <div class="bd">
+24 silly fetchPackageMetaData             <h1 class="title">温馨提示：<strong>该网站暂时无法访问</strong></h1>
+24 silly fetchPackageMetaData             <div class="detail">
+24 silly fetchPackageMetaData                 <p>原因一：根据 <a href="http://www.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=11">工信部相关法律法规</a>，该网站尚未备案；</p>
+24 silly fetchPackageMetaData                 <p>原因二：根据 <a href="http://www.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=9">工信部相关法律法规</a>，该网站未在接入商腾讯云上备案；</p>
+24 silly fetchPackageMetaData                 <p>原因三：该网站可能存在不适宜传播的信息。</p>
+24 silly fetchPackageMetaData                 <div class="sub">
+24 silly fetchPackageMetaData                     <p>本页面为默认提示页面，如存在以上问题，请联系网站负责人及时处理。</p>
+24 silly fetchPackageMetaData                     <p>如需备案请登录 <a href="http://console.qcloud.com/beian">腾讯云备案控制台</a>，查看 <a href="http://www.qcloud.com/doc/product/243/%E5%A4%87%E6%A1%88%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98">备案常见问题</a>，谢谢合作！</p>
+24 silly fetchPackageMetaData                 </div>
+24 silly fetchPackageMetaData             </div>
+24 silly fetchPackageMetaData         </div>
+24 silly fetchPackageMetaData         <div class="ft">
+24 silly fetchPackageMetaData             <div class="qcloud-logo"></div>
+24 silly fetchPackageMetaData         </div>
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData </body></html>
+24 silly fetchPackageMetaData <!--[if !IE]>|xGv00|8f85bc5ee2a463e0e5c16c474a6dd271<![endif]-->
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     at Object.parse (native)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:23)
+24 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+24 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+24 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+24 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+24 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+24 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+24 silly fetchPackageMetaData  error for madoko-local SyntaxError: Unexpected token < in JSON at position 0
+24 silly fetchPackageMetaData <!DOCTYPE html>
+24 silly fetchPackageMetaData <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+24 silly fetchPackageMetaData     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+24 silly fetchPackageMetaData     <link rel="icon" href="http://www.qcloud.com/favicon.ico" type="image/x-icon">
+24 silly fetchPackageMetaData     <style type="text/css">
+24 silly fetchPackageMetaData         body,div,p,h1{margin:0;padding:0;line-height:1;}
+24 silly fetchPackageMetaData         a{color:#0070cc !important;text-decoration: none;}
+24 silly fetchPackageMetaData         .content{width: 850px;height: 410px;border:solid 1px #e4e5e5;background-color:#fdfdfd;position:absolute;top:50%;left:50%;margin-left:-425px;margin-top:-205px;font-family:'Microsoft yahei';}
+24 silly fetchPackageMetaData         .bd{padding-top: 60px;margin: 0 198px;padding-bottom:10px;}
+24 silly fetchPackageMetaData         .bd .title{font-size: 22px;color:#171d25;font-weight:normal;margin-bottom:30px;}
+24 silly fetchPackageMetaData         .bd .title>strong{font-weight:normal;color:#ed711f;}
+24 silly fetchPackageMetaData         .bd p{font-size:14px;color:#171d25;margin-bottom:20px;}
+24 silly fetchPackageMetaData         .bd .sub{margin-top:30px;}
+24 silly fetchPackageMetaData         .bd .sub p{color:#808080;}
+24 silly fetchPackageMetaData         .ft{width:730px;margin:0 auto;border-top:solid 1px #edeef2;padding-top:30px;}
+24 silly fetchPackageMetaData         .qcloud-logo{width:96px;height:26px;margin:0 auto;background-image:url(http://imgcache.qq.com/wss/beian/static/img/logo.png);}
+24 silly fetchPackageMetaData     </style>
+24 silly fetchPackageMetaData <style type="text/css"></style></head>
+24 silly fetchPackageMetaData <body>
+24 silly fetchPackageMetaData     <div class="content">
+24 silly fetchPackageMetaData         <div class="bd">
+24 silly fetchPackageMetaData             <h1 class="title">温馨提示：<strong>该网站暂时无法访问</strong></h1>
+24 silly fetchPackageMetaData             <div class="detail">
+24 silly fetchPackageMetaData                 <p>原因一：根据 <a href="http://www.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=11">工信部相关法律法规</a>，该网站尚未备案；</p>
+24 silly fetchPackageMetaData                 <p>原因二：根据 <a href="http://www.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=9">工信部相关法律法规</a>，该网站未在接入商腾讯云上备案；</p>
+24 silly fetchPackageMetaData                 <p>原因三：该网站可能存在不适宜传播的信息。</p>
+24 silly fetchPackageMetaData                 <div class="sub">
+24 silly fetchPackageMetaData                     <p>本页面为默认提示页面，如存在以上问题，请联系网站负责人及时处理。</p>
+24 silly fetchPackageMetaData                     <p>如需备案请登录 <a href="http://console.qcloud.com/beian">腾讯云备案控制台</a>，查看 <a href="http://www.qcloud.com/doc/product/243/%E5%A4%87%E6%A1%88%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98">备案常见问题</a>，谢谢合作！</p>
+24 silly fetchPackageMetaData                 </div>
+24 silly fetchPackageMetaData             </div>
+24 silly fetchPackageMetaData         </div>
+24 silly fetchPackageMetaData         <div class="ft">
+24 silly fetchPackageMetaData             <div class="qcloud-logo"></div>
+24 silly fetchPackageMetaData         </div>
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData </body></html>
+24 silly fetchPackageMetaData <!--[if !IE]>|xGv00|8f85bc5ee2a463e0e5c16c474a6dd271<![endif]-->
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     at Object.parse (native)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:23)
+24 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+24 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+24 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+24 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+24 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+24 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+24 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack SyntaxError: Unexpected token < in JSON at position 0
+29 verbose stack <!DOCTYPE html>
+29 verbose stack <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+29 verbose stack
+29 verbose stack     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+29 verbose stack     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+29 verbose stack     <link rel="icon" href="http://www.qcloud.com/favicon.ico" type="image/x-icon">
+29 verbose stack     <style type="text/css">
+29 verbose stack         body,div,p,h1{margin:0;padding:0;line-height:1;}
+29 verbose stack         a{color:#0070cc !important;text-decoration: none;}
+29 verbose stack         .content{width: 850px;height: 410px;border:solid 1px #e4e5e5;background-color:#fdfdfd;position:absolute;top:50%;left:50%;margin-left:-425px;margin-top:-205px;font-family:'Microsoft yahei';}
+29 verbose stack         .bd{padding-top: 60px;margin: 0 198px;padding-bottom:10px;}
+29 verbose stack         .bd .title{font-size: 22px;color:#171d25;font-weight:normal;margin-bottom:30px;}
+29 verbose stack         .bd .title>strong{font-weight:normal;color:#ed711f;}
+29 verbose stack         .bd p{font-size:14px;color:#171d25;margin-bottom:20px;}
+29 verbose stack         .bd .sub{margin-top:30px;}
+29 verbose stack         .bd .sub p{color:#808080;}
+29 verbose stack         .ft{width:730px;margin:0 auto;border-top:solid 1px #edeef2;padding-top:30px;}
+29 verbose stack         .qcloud-logo{width:96px;height:26px;margin:0 auto;background-image:url(http://imgcache.qq.com/wss/beian/static/img/logo.png);}
+29 verbose stack     </style>
+29 verbose stack <style type="text/css"></style></head>
+29 verbose stack <body>
+29 verbose stack     <div class="content">
+29 verbose stack         <div class="bd">
+29 verbose stack             <h1 class="title">温馨提示：<strong>该网站暂时无法访问</strong></h1>
+29 verbose stack             <div class="detail">
+29 verbose stack                 <p>原因一：根据 <a href="http://www.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=11">工信部相关法律法规</a>，该网站尚未备案；</p>
+29 verbose stack                 <p>原因二：根据 <a href="http://www.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=9">工信部相关法律法规</a>，该网站未在接入商腾讯云上备案；</p>
+29 verbose stack                 <p>原因三：该网站可能存在不适宜传播的信息。</p>
+29 verbose stack                 <div class="sub">
+29 verbose stack                     <p>本页面为默认提示页面，如存在以上问题，请联系网站负责人及时处理。</p>
+29 verbose stack                     <p>如需备案请登录 <a href="http://console.qcloud.com/beian">腾讯云备案控制台</a>，查看 <a href="http://www.qcloud.com/doc/product/243/%E5%A4%87%E6%A1%88%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98">备案常见问题</a>，谢谢合作！</p>
+29 verbose stack                 </div>
+29 verbose stack             </div>
+29 verbose stack         </div>
+29 verbose stack         <div class="ft">
+29 verbose stack             <div class="qcloud-logo"></div>
+29 verbose stack         </div>
+29 verbose stack     </div>
+29 verbose stack </body></html>
+29 verbose stack <!--[if !IE]>|xGv00|8f85bc5ee2a463e0e5c16c474a6dd271<![endif]-->
+29 verbose stack
+29 verbose stack     at Object.parse (native)
+29 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:23)
+29 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+29 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+29 verbose stack     at emitTwo (events.js:106:13)
+29 verbose stack     at Request.emit (events.js:191:7)
+29 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+29 verbose stack     at emitOne (events.js:96:13)
+29 verbose stack     at Request.emit (events.js:188:7)
+29 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+30 verbose cwd /Users/hechaoyang/machine learning
+31 error Darwin 15.6.0
+32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "madoko-local"
+33 error node v6.11.4
+34 error npm  v3.10.10
+35 error Unexpected token < in JSON at position 0
+35 error <!DOCTYPE html>
+35 error <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+35 error
+35 error     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+35 error     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+35 error     <link rel="icon" href="http://www.qcloud.com/favicon.ico" type="image/x-icon">
+35 error     <style type="text/css">
+35 error         body,div,p,h1{margin:0;padding:0;line-height:1;}
+35 error         a{color:#0070cc !important;text-decoration: none;}
+35 error         .content{width: 850px;height: 410px;border:solid 1px #e4e5e5;background-color:#fdfdfd;position:absolute;top:50%;left:50%;margin-left:-425px;margin-top:-205px;font-family:'Microsoft yahei';}
+35 error         .bd{padding-top: 60px;margin: 0 198px;padding-bottom:10px;}
+35 error         .bd .title{font-size: 22px;color:#171d25;font-weight:normal;margin-bottom:30px;}
+35 error         .bd .title>strong{font-weight:normal;color:#ed711f;}
+35 error         .bd p{font-size:14px;color:#171d25;margin-bottom:20px;}
+35 error         .bd .sub{margin-top:30px;}
+35 error         .bd .sub p{color:#808080;}
+35 error         .ft{width:730px;margin:0 auto;border-top:solid 1px #edeef2;padding-top:30px;}
+35 error         .qcloud-logo{width:96px;height:26px;margin:0 auto;background-image:url(http://imgcache.qq.com/wss/beian/static/img/logo.png);}
+35 error     </style>
+35 error <style type="text/css"></style></head>
+35 error <body>
+35 error     <div class="content">
+35 error         <div class="bd">
+35 error             <h1 class="title">温馨提示：<strong>该网站暂时无法访问</strong></h1>
+35 error             <div class="detail">
+35 error                 <p>原因一：根据 <a href="http://www.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=11">工信部相关法律法规</a>，该网站尚未备案；</p>
+35 error                 <p>原因二：根据 <a href="http://www.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=9">工信部相关法律法规</a>，该网站未在接入商腾讯云上备案；</p>
+35 error                 <p>原因三：该网站可能存在不适宜传播的信息。</p>
+35 error                 <div class="sub">
+35 error                     <p>本页面为默认提示页面，如存在以上问题，请联系网站负责人及时处理。</p>
+35 error                     <p>如需备案请登录 <a href="http://console.qcloud.com/beian">腾讯云备案控制台</a>，查看 <a href="http://www.qcloud.com/doc/product/243/%E5%A4%87%E6%A1%88%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98">备案常见问题</a>，谢谢合作！</p>
+35 error                 </div>
+35 error             </div>
+35 error         </div>
+35 error         <div class="ft">
+35 error             <div class="qcloud-logo"></div>
+35 error         </div>
+35 error     </div>
+35 error </body></html>
+35 error <!--[if !IE]>|xGv00|8f85bc5ee2a463e0e5c16c474a6dd271<![endif]-->
+36 error If you need help, you may report this error at:
+36 error     <https://github.com/npm/npm/issues>
+37 verbose exit [ 1, true ]
