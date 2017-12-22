@@ -1,7 +1,10 @@
 # The book I am reading
 
 
+
 ***Speech and Language Processing***, Dan Jurafsky and James H. Martin ([https://web.stanford.edu/~jurafsky/slp3/](https://web.stanford.edu/~jurafsky/slp3/))
+
+***Data Mining: Concepts and Techniques***, by Jiawei Han
 
 ***Deep Learning***, An MIT Press book, Ian Goodfellow and Yoshua Bengio and Aaron Courville: [http://www.deeplearningbook.org/](http://www.deeplearningbook.org/)
 
